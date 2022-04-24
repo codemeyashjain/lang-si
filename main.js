@@ -15,5 +15,5 @@ function takesnapshot(){
 }
 console.log("ml5:",ml5.version);
 
-var classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/VyRpJ-3sW/',modelLoaded);
+var classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/VyRpJ-3sW/model.json',modelLoaded);
  
